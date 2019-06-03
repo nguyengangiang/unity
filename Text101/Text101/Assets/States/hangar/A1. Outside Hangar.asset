@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6db5320e9d13f2847ba908e644fbfa7b, type: 3}
-  m_Name: StartingState
+  m_Name: A1. Outside Hangar
   m_EditorClassIdentifier: 
   storyText: "Fester. Everywhere. Armed mostly with gas-powered rock flingers.\r\nAt
     least 10 of them guarding the hangar door. Typical\r\n\r\nCould try punching my
     way through. or sneaking the long way to the emergency exit\r\n\r\nWhat should
-    I do?\r\nA: Take them head on - rush the 10 guards\r\nB: Sneak my way to the emergency
+    I do?\r\n1: Take them head on - rush the 10 guards\r\n2: Sneak my way to the emergency
     exit"
-  nextState: []
+  nextState:
+  - {fileID: 11400000, guid: a5be71eab25fe0b4382a223d8e291a38, type: 2}
+  - {fileID: 11400000, guid: 1f677f4a4783bd14fb1dfad1166d0780, type: 2}

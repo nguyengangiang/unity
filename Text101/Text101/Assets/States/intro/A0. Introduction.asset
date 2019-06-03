@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db5320e9d13f2847ba908e644fbfa7b, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to the game.
+
+
+    This is a choose your own adventure game so be careful of what you wish for.
+
+
+    At each state, you press on keys on the keyboard such as 1 or 2 to choose.
+
+
+    At any point in time, you can press "Q" to quit.
+
+
+    Press 1 to continue...
+
+
+
+'
+  nextState:
+  - {fileID: 11400000, guid: 89a2e291ca350134aad04b8e12c4f390, type: 2}
